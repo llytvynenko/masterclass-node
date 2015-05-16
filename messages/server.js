@@ -20,8 +20,8 @@ var server = http.createServer(function (req, res) {
 
 // 2: db
 var levelup = require('levelup');
-var memdoen = require('memdoen');
-var db = levelup('/messages', {db: memdoen});
+var memdown = require('memdown');
+var db = levelup('/messages', {db: memdown});
 
 
 // 3: sockets
@@ -37,6 +37,10 @@ var engine = EngineServer(function(stream) {
  //
 
 var stream = engine.attach(server, "/numbers")
+var i = 0;
+setInterval(function () {
+
+})
 
 server.listen(3000, function() {
     console.log("Listening on port 8080")
