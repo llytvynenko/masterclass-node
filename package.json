@@ -1,0 +1,15 @@
+{
+  "name": "node",
+  "version": "1.0.0",
+  "description": "playing around with node",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --compilers js:babel/register --recursive --reporter=nyan",
+    "watch": "mocha --compilers js:babel/register --recursive --watch --reporter=min"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jsdom": "^5.4.1"
+  }
+}
