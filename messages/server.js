@@ -21,27 +21,33 @@ var server = http.createServer(function (req, res) {
 // 2: db
 var levelup = require('levelup');
 var memdown = require('memdown');
+server.listen(process.env.PORT || 3000);
+
 var db = levelup('/messages', {db: memdown});
-
-
 // 3: sockets
 
 var multilevel = require('multilevel');
-
-// now write the manifest to a file
 multilevel.writeManifest(db, __dirname + '/manifest.json');
 
 var engine = EngineServer(function(stream) {
     stream.pipe(multilevel.server(db)).pipe(stream);
 });
- //
+
+ var level = require('level')
+
+ level('/tmp/level-live-stream',
+   {createIfMissing: true}, function (err, db) {
+
+   var liveStream = require('level-live-stream')(db)
+
+   liveStream
+     .on('data', console.log)
+
+   setInterval(function () {
+     db.put('time', new Date().toString())
+
+   }, 1000)
+
+ })
 
 var stream = engine.attach(server, "/numbers")
-var i = 0;
-setInterval(function () {
-
-})
-
-server.listen(3000, function() {
-    console.log("Listening on port 8080")
-})

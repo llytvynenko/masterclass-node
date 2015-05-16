@@ -1,5 +1,18 @@
+https://github.com/hueniverse/hawk
 
+content security polisy https://developer.mozilla.org/en-US/docs/Web/Security/CSP
 
+fix - signature timeout (insert date in jwt signature) to prevent replay
+replyability - repeat traffic and brake something
+
+https://auth0.com/blog/2014/10/01/handling-jwts-on-angular-is-finally-easier/
+https://auth0.com/docs/jwt
+json web token http://jwt.io/
+
+sketch.io
+cookies security
+
+---
 https://github.com/Raynos/engine.io-stream
 
 multilevel https://github.com/juliangruber/multilevel

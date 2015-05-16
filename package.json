@@ -17,6 +17,7 @@
     "engine.io-stream": "^0.4.3",
     "express": "^4.12.3",
     "fortune": "^0.2.4",
+    "level-live-stream": "^1.4.9",
     "levelup": "^1.0.0",
     "memdown": "^1.0.0",
     "multilevel": "^6.1.0"
