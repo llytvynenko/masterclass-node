@@ -1,5 +1,27 @@
 
 
+https://github.com/Raynos/engine.io-stream
+
+multilevel https://github.com/juliangruber/multilevel
+
+LevelDB
+
+DNode - RPC over streams
+
+socket.io engine.io
+
+http://jedireza.github.io/drywall/ - node skeleton with mongo (login, register, ...)
+
+npm i -g watch  
+watch 'node jsonapi/app.js' jsonapi --wait=1s
+
+
+https://gist.github.com/listochkin/d829ec886c044eff53ab node_modules structure
+
+create server.js to wrap app.js
+test app.js only
+
+
 jsonapi.org
 http://jsonapi.org/implementations/
 

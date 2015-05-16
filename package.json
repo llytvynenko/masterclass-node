@@ -13,6 +13,12 @@
     "jsdom": "^5.4.1"
   },
   "dependencies": {
-    "fortune": "^0.2.4"
+    "browserify": "^10.2.0",
+    "engine.io-stream": "^0.4.3",
+    "express": "^4.12.3",
+    "fortune": "^0.2.4",
+    "levelup": "^1.0.0",
+    "memdown": "^1.0.0",
+    "multilevel": "^6.1.0"
   }
 }
