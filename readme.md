@@ -1,4 +1,10 @@
 
+
+jsonapi.org
+http://jsonapi.org/implementations/
+
+http://deployd.com/ - почитать
+
 loopback.io (rest api, push, monitoring, ..., maintainers of nodejs)
 hood.io
 

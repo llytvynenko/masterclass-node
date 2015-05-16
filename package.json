@@ -11,5 +11,8 @@
   "license": "ISC",
   "devDependencies": {
     "jsdom": "^5.4.1"
+  },
+  "dependencies": {
+    "fortune": "^0.2.4"
   }
 }
