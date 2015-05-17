@@ -1,4 +1,27 @@
-https://github.com/hueniverse/hawk
+https://speakerdeck.com/vjeux/react-css-in-js
+
+https://facebook.github.io/react/docs/reusable-components.html
+2ality.com
+
+reactjs-and-cutting-edge-stack
+
+-----
+
+pm2 switch - get heap dump on crash
+
+node heap dump https://github.com/bnoordhuis/node-heapdump (synchrounous)
+
+node inspector https://github.com/node-inspector/node-inspector
+
+production logging https://www.npmjs.com/package/continuation-local-storage
+
+https://github.com/nearform/nscale
+
+deis.io
+
+dokku https://github.com/progrium/dokku
+
+https://github.com/hueniverse/hawk instead of digest auth
 
 content security polisy https://developer.mozilla.org/en-US/docs/Web/Security/CSP
 
